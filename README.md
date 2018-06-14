@@ -38,7 +38,7 @@ regression model coupled with naïve bayes . This model showed good performance 
 suggested by Wang et. al. We saved this particular model as a pickle file to further use it for final
 prediction.
 
-4. lybrate_main.py
+4. main.py
 
 This is the main file where all the predictions are being made. Now it takes the path of the target
 dataset from the command line argument by this command ‘Python lybrate_main.py --Data_File
