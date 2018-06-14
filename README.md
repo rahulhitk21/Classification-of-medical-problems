@@ -4,7 +4,7 @@ This particular problem’s objective was to determine the primary and the secon
 text body provided by the customers. Now this there are 4 python files each has its own purpose. The
 analysis of the data and the prediction is explained with the description of each of the files.
 
-1. lybrrate_train.py
+1. train.py
 
 This file does all the pre-processing steps needed to convert the data file provided into a format
 where models can be applied. The particular file provided as a training dataset
@@ -31,7 +31,7 @@ modelling file because at the time of testing it needed to be imported on the ma
 include it into the modelling file(where training has been done) unwanted training will run again
 which will consume a lot of time.
 
-3. lybrate_modelling.py
+3. modelling.py
 
 Now as the preprocessing was done the training data was fed into the model which is a logistic
 regression model coupled with naïve bayes . This model showed good performance in the past as
